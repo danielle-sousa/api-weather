@@ -6,7 +6,7 @@
       <label>Pesquisar</label>
       <div>
         <input class="form-control" [formControl]="searchControl">
-        <button class="btn btn-dark"
+        <button class="btn btn-primary"
                 [disabled]="!searchControl.valid"
                 (click)="doSearch()">Pesquisar</button>
       </div>
